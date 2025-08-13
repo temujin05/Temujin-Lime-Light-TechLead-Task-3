@@ -1,0 +1,15 @@
+:root{
+  --accent: #05081c;
+  --muted: #6b7280;
+  --radius: 12px;
+  --glass: rgba(255,255,255,0.06);
+}
+body{font-family: 'Arial Black', Arial, sans-serif;background:#fff;color:#111}
+.navbar-brand{font-weight:700;font-family:'Poppins',sans-serif}
+.hero{height:60vh; background: linear-gradient(135deg,#1e3a8a 0%, #636b2f 100%); color:#fff; display:flex; align-items:center; justify-content:center; text-align:center; padding-top:6rem}
+.hero .avatar{width:220px; height:210px; border-radius:50%; background:rgba(255,255,255,0.12); padding:12px; box-shadow:0 6px 20px rgba(0,0,0,0.25)}
+.section{padding-top:3rem; padding-bottom:3rem}
+.accent{color:var(--accent); font-weight:700}
+.card-img-top{height:190px; object-fit:cover; background:#f4f6fb}
+.fav{background:linear-gradient(180deg, rgba(255,255,255,0.6), rgba(255,255,255,0.3)); border:1px solid rgba(0,0,0,0.05)}
+@media(max-width:800px){ .hero{height:20vh} .card-img-top{height:160px} .avatar{width:90px;height:90px} }
